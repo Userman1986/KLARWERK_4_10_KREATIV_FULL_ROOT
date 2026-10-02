@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de" data-demo="gastro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reservierung — Osteria Verde | Showcase</title>
+<meta name="description" content="Tisch in der Osteria Verde anfragen.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../../../assets/css/fonts.css">
+<link rel="stylesheet" href="../styles.css?v=24">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" translate="no" href="../">Osteria Verde<span>Italienisch · Hamburg</span></a>
+    <nav class="nav-links">
+      <a href="../speisekarte/" data-i18n="g.nav.menu">Speisekarte</a>
+      <a href="../galerie/" data-i18n="g.nav.galerie">Galerie</a>
+      <a href="../ueber-uns/" data-i18n="g.nav.ueber">Über uns</a>
+      <a href="../kontakt/" data-i18n="g.nav.kontakt">Kontakt</a>
+      <a href="../reservierung/" data-i18n="g.nav.res">Reservierung</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="demo-langs" role="group" aria-label="Language">
+        <button type="button" data-demo-lang="de">DE</button>
+        <button type="button" data-demo-lang="en">EN</button>
+        <button type="button" data-demo-lang="uk">UA</button>
+        <button type="button" data-demo-lang="he">HE</button>
+      </div>
+      <a class="phone-link" href="tel:+494012345678">+49 40 123 456 78</a>
+      <a class="btn btn-gold" href="../reservierung/" data-i18n="g.nav.cta">Tisch reservieren</a>
+      <button class="burger" type="button" id="burger" aria-label="Menü"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-panel" id="mobile-panel">
+  <a href="../speisekarte/" data-i18n="g.nav.menu">Speisekarte</a>
+  <a href="../galerie/" data-i18n="g.nav.galerie">Galerie</a>
+  <a href="../ueber-uns/" data-i18n="g.nav.ueber">Über uns</a>
+  <a href="../kontakt/" data-i18n="g.nav.kontakt">Kontakt</a>
+  <a href="../reservierung/" data-i18n="g.nav.res">Reservierung</a>
+  <a class="btn btn-gold" href="../reservierung/" data-i18n="g.nav.cta" data-i18n="g.nav.cta">Tisch reservieren</a>
+</div>
+<main>
+<section class="wrap page-hero reveal"><p class="sec-k">Reservierung</p>
+<h1>Tisch reservieren</h1>
+<p class="sub">Di–Sa ab 17:30 · So Brunch 11–15. Antwort in der Regel innerhalb von 24 Stunden.</p></section>
+<section class="sec"><div class="wrap">
+<form class="form reveal" action="mailto:main@klarwerk.studio" method="get" enctype="text/plain">
+<input type="hidden" name="subject" value="Reservierung Osteria Verde (Showcase)">
+<label>Name *<input name="name" required placeholder="Ihr Name"></label>
+<label>Telefon *<input name="phone" type="tel" required placeholder="+49 …"></label>
+<label>E-Mail *<input name="email" type="email" required placeholder="name@example.com"></label>
+<label>Datum<input name="date" type="date"></label>
+<label>Uhrzeit<input name="time" type="time"></label>
+<label>Gäste<input name="guests" type="number" min="1" max="12" value="2"></label>
+<label>Nachricht<textarea name="body" placeholder="Allergien, Anlass, Brunch…"></textarea></label>
+<label class="check"><input type="checkbox" required> <span>Ich habe die Datenschutzhinweise gelesen und willige in die Verarbeitung zur Bearbeitung meiner Anfrage ein.</span></label>
+<button class="btn btn-gold" type="submit">Anfrage per E-Mail senden</button>
+<p style="font-size:13px;color:var(--muted)">Öffnet Ihr E-Mail-Programm an main@klarwerk.studio.</p>
+</form>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <strong>Osteria Verde</strong>
+      <p class="demo-badge">Konzeptionelle Showcase-Demonstration von KLARWERK — kein reales Restaurant. Adresse, Telefon und Preise sind Beispieldaten.</p>
+    </div>
+    <div>
+      <strong data-i18n="g.foot.nav">Navigation</strong>
+      <a href="../speisekarte/">Speisekarte</a>
+      <a href="../galerie/">Galerie</a>
+      <a href="../reservierung/">Reservierung</a>
+      <a href="../kontakt/">Kontakt</a>
+    </div>
+    <div>
+      <strong data-i18n="g.foot.legal">Rechtliches</strong>
+      <a href="../impressum/" data-i18n="g.foot.impressum">Impressum</a>
+      <a href="../datenschutz/" data-i18n="g.foot.datenschutz">Datenschutz</a>
+    </div>
+    <div>
+      <strong data-i18n="g.foot.addr">Adresse</strong>
+      <p>Beispielstraße 12<br>20259 Hamburg-Eimsbüttel</p>
+      <p style="margin-top:8px"><a href="../kontakt/">Karte &amp; Stunden →</a></p>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© Showcase · KLARWERK</span>
+    <span><a href="../impressum/" data-i18n="g.foot.impressum">Impressum</a> · <a href="../datenschutz/" data-i18n="g.foot.datenschutz">Datenschutz</a></span>
+  </div>
+</footer>
+<div class="mobile-cta-bar">
+  <a class="btn btn-ghost" href="tel:+494012345678" data-i18n="g.mob.call">Anrufen</a>
+  <a class="btn btn-gold" href="../reservierung/" data-i18n="g.nav.cta">Tisch reservieren</a>
+</div><script src="../../_shared/demo-i18n.js?v=24"></script>
+<script src="../../_shared/demo-ui.js?v=24"></script>
+<script src="../hours.js?v=24"></script>
+</body>
+</html>
